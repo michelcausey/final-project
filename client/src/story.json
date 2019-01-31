@@ -1,0 +1,74 @@
+[
+    {
+      "id": "The First Scene",
+      "image": "https://placehold.it/200x200",
+      "text": "Do you want to turn left or turn right?",
+      "options": ["Left", "Right"]
+    },
+    {
+      "id": "Home",
+      "image": "https://placehold.it/200x200",
+      "movement": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 3,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 4,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 5,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 6,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 7,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 8,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 9,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 10,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 11,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    },
+    {
+      "id": 12,
+      "image": "https://placehold.it/200x200",
+      "text": "Story Text Goes Here",
+      "options": ["first", "second"]
+    }
+  ]

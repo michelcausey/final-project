@@ -1,0 +1,17 @@
+.navbar {
+    background: #64665d;
+}
+
+h5 {
+    padding: 10px;
+    margin: 10px;
+    color: #000000;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #880000;
+}
