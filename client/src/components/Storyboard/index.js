@@ -1,25 +1,22 @@
 import React from "react";
+import Button from "../Button"
 import "./style.css";
 
+
 function Storyboard(props) {
-  console.log(props)
 
   return (
     <div className="container">
       <div className="card">
+      <h5 className="card-title">Your location: {props.name}</h5>
         <div className="card-body">
-          <h5 className="card-title">{props.id}</h5>
-          <p className="card-text">
-            {props.text}
-          </p>
-          <button className="btn btn-primary" id="one">
-            {props.options[0]}
-          </button>
-          <button className="btn btn-primary" id="two">
-            {props.options[1]}
-          </button>
+          <p className="card-text">Details: {props.story}</p>
+        <div>
         </div>
-        <img src="https://placehold.it/200x200" className="card-img-top" alt="story" />
+        <Button 
+          movement={props.movement}
+        />
+        </div>
       </div>
     </div>
   );
