@@ -11,9 +11,6 @@ function Nav() {
 <div className="collapse navbar-collapse" id="navbarNavDropdown">
   <ul className="navbar-nav">
     <li className="nav-item active">
-      <a className="nav-link" href="/about">About <span className="sr-only">(current)</span></a>
-    </li>
-    <li className="nav-item active">
       <a className="nav-link" href="/login">Log-In <span className="sr-only">(current)</span></a>
     </li>
     <li className="nav-item active">
