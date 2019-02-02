@@ -3,7 +3,7 @@
     "Home": {
       "name": "Home",
       "story": "This is going to tell the user what happens so then they can decide what to do next",
-      "image": "https://placehold.it/500x350",
+      "image": "https://placehold.it/535x355",
       "movement": {
         "N": null,
         "E": "Work",
@@ -14,7 +14,7 @@
     "Work": {
       "name": "Work",
       "story": "This talks about what happens at work",
-      "image": "https://placehold.it/500x350",
+      "image": "https://placehold.it/535x355",
       "movement": {
         "N": null,
         "E": null,
@@ -25,7 +25,7 @@
     "Venue": {
       "name": "Venue",
       "story": "We gotta figure out what the story even is",
-      "image": "https://placehold.it/500x350",
+      "image": "https://placehold.it/535x355",
       "movement": {
         "N": "Work",
         "E": null,
@@ -36,7 +36,7 @@
     "Class": {
       "name": "Class",
       "story": "Tues Thurs Sat x 24",
-      "image": "https://placehold.it/500x350",
+      "image": "https://placehold.it/535x355",
       "movement": {
         "N": "Home",
         "E": "Venue",
