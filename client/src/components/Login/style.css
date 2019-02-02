@@ -25,7 +25,13 @@
     width: 50%;
 }
 
-#register {
+#register-login {
     font-size: 15px;
     text-align: right;
+}
+
+#no-hover:hover{
+    padding: 0px;
+    
+    
 }
