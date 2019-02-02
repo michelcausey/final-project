@@ -8,7 +8,9 @@
 
 #about-img {
     border: 1px black solid;
-    margin: 10px auto 0px auto;
+    margin: 0px auto 0px auto;
+    height: 35%;
+    width: 35%;
 }
 
 .description-div {
@@ -49,4 +51,11 @@ p {
     font-style: italic;
     color: black;
     margin-top: 10px;
+}
+
+footer {
+    padding: 20px;
+    background: #817573;
+    text-align: center;
+    margin-top: 20px;
 }

@@ -14,7 +14,7 @@ function Storyboard(props) {
         </p>
         </div>
         <div className="img-container">
-          <img src={props.image} alt="props" />
+          <img id="sized-image" src={props.image} alt="props" />
         </div>
         <div className="card-body">
           <p className="card-text">
@@ -31,7 +31,7 @@ function Storyboard(props) {
           </div>
         </div>
       </div>
-      <footer><a href="https://michelcausey.github.io/Bootstrap-Portfolio/">michel causey - 2019</a></footer>
+      <footer><a href="https://michelcausey.github.io/Bootstrap-Portfolio/" target="_blank">michel causey 2019</a></footer>
     </div>
   );
 }

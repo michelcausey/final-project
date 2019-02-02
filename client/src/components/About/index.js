@@ -4,16 +4,17 @@ import "./style.css";
 
 function About() {
   return (
+    <div>
     <div className="about-container">
       <div className="description-div">
         <h1>The Title Of This CYOA Game is Really Exciting</h1>
         <h3>
           The description of this game will most definitely make you want to
-          play it
+          play it, once I write it!
         </h3>
         <br />
         <div className="about-image">
-          <img id="about-img" src="https://placehold.it/250x175" alt="about" />
+          <img id="about-img" src="https://cdn.pixabay.com/photo/2016/01/09/18/27/journey-1130732_960_720.jpg" alt="about" />
         </div>
         <p>
           more details more details, i know what the game is, more details more
@@ -37,7 +38,8 @@ function About() {
           </a>
         </h4>
       </div>
-      <Footer />
+    </div>
+    <footer><a href="https://michelcausey.github.io/Bootstrap-Portfolio/" target="_blank">michel causey 2019</a></footer>
     </div>
   );
 }

@@ -1,48 +1,46 @@
 [
   {
-    "Home": {
       "name": "Home",
       "story": "This is going to tell the user what happens so then they can decide what to do next",
-      "image": "https://placehold.it/535x355",
+      "image": "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
         "N": null,
-        "E": "Work",
-        "S": "Class",
+        "E": "Woods",
+        "S": "Cemetery",
         "W": null
       }
-    },
-    "Work": {
-      "name": "Work",
-      "story": "This talks about what happens at work",
-      "image": "https://placehold.it/535x355",
+  },
+  {
+      "name": "Woods",
+      "story": "This talks about what happens when you go to the woods",
+      "image": "https://cdn.pixabay.com/photo/2018/01/31/07/36/secret-3120483_960_720.jpg",
       "movement": {
         "N": null,
         "E": null,
-        "S": "Venue",
+        "S": "Castle",
         "W": "Home"
       }
     },
-    "Venue": {
-      "name": "Venue",
+  {
+      "name": "Castle",
       "story": "We gotta figure out what the story even is",
-      "image": "https://placehold.it/535x355",
+      "image": "https://cdn.pixabay.com/photo/2017/02/25/09/51/full-moon-2097326_960_720.jpg",
       "movement": {
-        "N": "Work",
+        "N": "Woods",
         "E": null,
         "S": null,
-        "W": "Class"
+        "W": "Cemetery"
       }
     },
-    "Class": {
-      "name": "Class",
+  {
+      "name": "Cemetery",
       "story": "Tues Thurs Sat x 24",
-      "image": "https://placehold.it/535x355",
+      "image": "https://cdn.pixabay.com/photo/2015/10/15/18/55/cemetery-989920_960_720.jpg",
       "movement": {
         "N": "Home",
-        "E": "Venue",
+        "E": "Castle",
         "S": null,
         "W": null
       }
     }
-  }
 ]

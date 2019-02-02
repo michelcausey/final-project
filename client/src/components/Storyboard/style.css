@@ -49,3 +49,8 @@ footer {
     margin-right: auto;
     background: white;
 }
+
+#sized-image{
+    height: 335px;
+    width: 535px;
+}
