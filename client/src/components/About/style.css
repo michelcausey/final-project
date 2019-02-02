@@ -1,0 +1,52 @@
+.about-container {
+    background: #188863;
+    border: 1px black solid;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#about-img {
+    border: 1px black solid;
+    margin: 10px auto 0px auto;
+}
+
+.description-div {
+    padding: 20px;
+    background: white;
+    margin: 0px auto 0px auto;
+    border: 2px black solid;
+    text-align: center;
+}
+
+.how-to-play-div {
+    margin-top: 50px;
+}
+
+#play {
+    font-size: 15px;
+}
+
+#login-link {
+    color: #07B2B8;
+}
+
+#register {
+    font-size: 15px;
+}
+
+#signup-link {
+    color: #07B2B8;
+}
+
+h3 {
+    font-size: 23px;
+    font-style: italic;
+}
+
+p {
+    font-size: 19px;
+    font-style: italic;
+    color: black;
+    margin-top: 10px;
+}

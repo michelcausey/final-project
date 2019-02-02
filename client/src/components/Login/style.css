@@ -1,0 +1,30 @@
+.container-login {
+    border: black 1px solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-header {
+    margin: 0px auto 0px auto;
+    color: lightgray;
+    padding: 5px;
+    background: #031549;
+
+}
+
+.whole-form {
+    background: #188863;
+    padding: 20px;
+    color: white;
+}
+
+#submit-button {
+    background:#031549;
+    width: 50%;
+}
+
+#register {
+    font-size: 15px;
+    text-align: right;
+}
