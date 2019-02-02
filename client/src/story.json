@@ -13,6 +13,7 @@
     },
     "Work": {
       "name": "Work",
+      "story": "This talks about what happens at work",
       "image": "https://placehold.it/500x350",
       "movement": {
         "N": null,
@@ -23,6 +24,7 @@
     },
     "Venue": {
       "name": "Venue",
+      "story": "We gotta figure out what the story even is",
       "image": "https://placehold.it/500x350",
       "movement": {
         "N": "Work",
@@ -32,6 +34,8 @@
       }
     },
     "Class": {
+      "name": "Class",
+      "story": "Tues Thurs Sat x 24",
       "image": "https://placehold.it/500x350",
       "movement": {
         "N": "Home",

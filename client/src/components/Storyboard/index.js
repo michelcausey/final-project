@@ -6,18 +6,29 @@ function Storyboard(props) {
   return (
     <div className="container">
       <div className="card">
-        <div className="img-container">
-          <img src={props.image} />
+      <div className="location-div">
+        <p className="card-title">
+          Your current location:
+          <br />
+          {props.name}
+        </p>
         </div>
-        <h5 className="card-title">Your current location: {props.name}</h5>
+        <div className="img-container">
+          <img src={props.image} alt="props" />
+        </div>
+
         <div className="card-body">
           <p className="card-text">
-            Location details:<br />
+            Location details:
+            <br />
             {props.story}
           </p>
           <div />
           <div className="btn-container">
-            <Button movement={props.movement} />
+            <Button
+              movement={props.movement}
+              handleBtnClick={props.handleBtnClick}
+            />
           </div>
         </div>
       </div>

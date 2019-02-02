@@ -3,7 +3,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    border: 1px solid
 }
 
 #btn1 {
@@ -11,6 +11,7 @@
     margin: 10px;
     padding: 10px;
     font-size: 25px;
+    border-color: #061D22;
 }
 
 #btn2 {
@@ -18,6 +19,7 @@
     margin: 10px;
     padding: 10px;
     font-size: 25px;
+    border-color: #190622;
 }
 
 #btn3 {
@@ -25,6 +27,7 @@
     margin: 10px;
     padding: 10px;
     font-size: 25px;
+    border-color: #220B06;
 }
 
 #btn4 {
@@ -32,4 +35,5 @@
     margin: 10px;
     padding: 10px;
     font-size: 25px;
+    border-color: #0F2206;
 }

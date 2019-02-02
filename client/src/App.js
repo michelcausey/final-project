@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Game from "./components/Game"
 import About from "./components/About"
 import Login from "./components/Login"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+    <Footer />
     </div>
   );
 }

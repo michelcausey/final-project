@@ -24,6 +24,7 @@ render() {
               story={this.state.story}
               image={this.state.image}
               movement={this.state.movement}
+              handleBtnClick={this.handleBtnClick}
             />
         </div>
       </div>

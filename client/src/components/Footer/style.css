@@ -1,0 +1,19 @@
+#footer {
+    background: #64665d;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #880000;
+}
