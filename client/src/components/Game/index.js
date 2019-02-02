@@ -17,13 +17,16 @@ class Game extends Component {
 
     if (event.target.innerText === "Home") {
       console.log("go home");
+      this.setState({location: this.state.location = 0})
     } else if (event.target.innerText === "Woods") {
       console.log("go to the woods");
-      this.setState({location: this.state.location + 1})
+      this.setState({location: this.state.location = 1})
     } else if (event.target.innerText === "Castle") {
       console.log("go to the castle");
+      this.setState({location: this.state.location = 2})
     } else if (event.target.innerText === "Cemetery") {
       console.log("go to the cemetery");
+      this.setState({location: this.state.location = 3})
     } else {
       console.log("try to make this button go away");
     }
