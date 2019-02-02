@@ -4,12 +4,12 @@ body {
 
 footer {
     padding: 20px;
-    background: #64665d;
+    background: #817573;
     text-align: center;
 }
 
 .card {
-    border: black 1px solid;
+    border: black 3px solid;
     background: #188863;
     margin-bottom: 20px;
 }
@@ -37,7 +37,8 @@ footer {
 
 .img-container {
     margin: 0px auto 0px auto;
-    border: black 2px solid;
+    border-left: black 2px solid;
+    border-right: black 2px solid;
 }
 
 .location-div {

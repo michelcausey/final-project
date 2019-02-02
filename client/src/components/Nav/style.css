@@ -1,5 +1,5 @@
 .navbar {
-    background: #64665d;
+    background: #817573;
     margin-bottom: 20px;
 }
 
@@ -14,5 +14,8 @@ h5 {
 }
 
 a:hover {
-    color: #880000;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid #000000;
+    background: #758818;
 }
