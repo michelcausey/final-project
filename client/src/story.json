@@ -1,13 +1,13 @@
 [
-  {
+  {   
       "name": "Home",
-      "story": "This is going to tell the user what happens so then they can decide what to do next",
+      "story": "...no, I'm a frayed knot",
       "image": "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
         "N": null,
         "E": "Woods",
-        "S": "Cemetery",
-        "W": null
+        "S": null,
+        "W": "Meadow"
       }
   },
   {
@@ -15,32 +15,153 @@
       "story": "This talks about what happens when you go to the woods",
       "image": "https://cdn.pixabay.com/photo/2018/01/31/07/36/secret-3120483_960_720.jpg",
       "movement": {
+        "N": "River",
+        "E": null,
+        "S": "Cemetery",
+        "W": null
+      }
+    },
+    {
+      "name": "River",
+      "story": "the river one",
+      "image": "https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "movement": {
         "N": null,
-        "E": null,
-        "S": "Castle",
-        "W": "Home"
-      }
-    },
-  {
-      "name": "Castle",
-      "story": "We gotta figure out what the story even is",
-      "image": "https://cdn.pixabay.com/photo/2017/02/25/09/51/full-moon-2097326_960_720.jpg",
-      "movement": {
-        "N": "Woods",
-        "E": null,
+        "E": "Swamp",
         "S": null,
-        "W": "Cemetery"
+        "W": "Cliff"
       }
     },
-  {
-      "name": "Cemetery",
-      "story": "Tues Thurs Sat x 24",
-      "image": "https://cdn.pixabay.com/photo/2015/10/15/18/55/cemetery-989920_960_720.jpg",
+    {
+      "name": "Swamp",
+      "story": "the swamp one",
+      "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
       "movement": {
-        "N": "Home",
-        "E": "Castle",
+        "N": "Join Coven",
+        "E": "Reject Invitation",
         "S": null,
         "W": null
       }
-  }
+    },
+    {
+      "name": "Cliff",
+      "story": "the cliff one",
+      "image": "https://images.pexels.com/photos/861034/pexels-photo-861034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "movement": {
+        "N": "Climb Down",
+        "E": "Use the Parachute",
+        "S": null,
+        "W": null
+      }
+    },
+    {
+      "name": "Cemetery",
+      "story": "like greenwood",
+      "image": "https://cdn.pixabay.com/photo/2015/10/15/18/55/cemetery-989920_960_720.jpg",
+      "movement": {
+        "N": null,
+        "E": null,
+        "S": "Castle",
+        "W": "Church"
+      }
+  },
+  {
+      "name": "Castle",
+      "story": "eureka's castle",
+      "image": "https://cdn.pixabay.com/photo/2017/02/25/09/51/full-moon-2097326_960_720.jpg",
+      "movement": {
+        "N": "Look",
+        "E": "Keep Your Eyes Closed",
+        "S": null,
+        "W": null
+      }
+    },
+    {
+      "name": "Church",
+      "story": "the church one",
+      "image": "https://cdn.pixabay.com/photo/2016/09/04/22/08/church-1645414_960_720.jpg",
+      "movement": {
+        "N": "Sneak There",
+        "E": "Run!",
+        "S": null,
+        "W": null
+      }
+    },
+    {
+      "name": "Meadow",
+      "story": "This talks about what happens when you go to the meadow",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736882_960_720.jpg",
+      "movement": {
+        "N": "Mountains",
+        "E": null,
+        "S": null,
+        "W": "Hidden Path"
+      }
+    },
+    {
+      "name": "Mountains",
+      "story": "The mountain choice",
+      "image": "https://images.pexels.com/photos/655679/pexels-photo-655679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "movement": {
+        "N": null,
+        "E": "Summit",
+        "S": null,
+        "W": "Shack"
+      }
+    },
+    {
+      "name": "Summit",
+      "story": "The summit one",
+      "image": "https://cdn.pixabay.com/photo/2015/09/02/12/27/matterhorn-918442_960_720.jpg",
+      "movement": {
+        "N": "Participate",
+        "E": "Politely Decline",
+        "S": null,
+        "W": null
+      }
+    },
+    {
+      "name": "Shack",
+      "story": "The shack one",
+      "image": "https://images.pexels.com/photos/750108/pexels-photo-750108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "movement": {
+        "N": "Fight",
+        "E": "Flee",
+        "S": null,
+        "W": null
+      }
+    },
+    {
+      "name": "Hidden Path",
+      "story": "the hidden path option",
+      "image": "https://images.pexels.com/photos/235734/pexels-photo-235734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "movement": {
+        "N": null,
+        "E": null,
+        "S": "Abandoned Village",
+        "W": "Quick Sand"
+      }
+    },
+    {
+      "name": "Abandoned Village",
+      "story": "this looks suspiciously dangerous",
+      "image": "https://cdn.pixabay.com/photo/2018/01/16/18/04/house-3086475_960_720.jpg",
+      "movement": {
+        "N": "Disguise Yourself",
+        "E": "Fight Your Way Out",
+        "S": null,
+        "W": null
+      }
+    },
+    {
+      "name": "Quick Sand",
+      "story": "seriously does anyone ever survive this?",
+      "image": "https://images.pexels.com/photos/127582/pexels-photo-127582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "movement": {
+        "N": "Try to go over it",
+        "E": "Try to go through it",
+        "S": null,
+        "W": null
+      }
+    }
 ]
