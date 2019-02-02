@@ -5,6 +5,11 @@ import story from "../../story.json";
 class Game extends Component {
   state = {
     location: 0
+
+    // location: 0 = Home
+    // location: 1 = Woods
+    // location: 2 = Castle
+    // location: 3 = Cemetery
   };
 
   //update state based on button pressed
