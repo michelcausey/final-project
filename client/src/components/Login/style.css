@@ -11,7 +11,7 @@
     padding: 5px;
     background: #031549;
     text-align: center;
-
+    font-family: 'Concert One', cursive;
 }
 
 .whole-form {
@@ -31,7 +31,5 @@
 }
 
 #no-hover:hover{
-    padding: 0px;
-    
-    
+    padding: 0px;    
 }

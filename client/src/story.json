@@ -126,7 +126,7 @@
       "image": "https://images.pexels.com/photos/750108/pexels-photo-750108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
         "N": "Fight",
-        "E": "Flee",
+        "E": "Sled",
         "S": null,
         "W": null
       }
@@ -299,7 +299,7 @@
   {
     "name": "Disguise Yourself",
     "story": "like the walking dead",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/1113520/pexels-photo-1113520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -310,7 +310,7 @@
   {
     "name": "Fight Your Way Out",
     "story": "also like the walking dead",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/878979/pexels-photo-878979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -321,7 +321,7 @@
   {
     "name": "Try to go over it",
     "story": "vine",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/280377/pexels-photo-280377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -332,7 +332,7 @@
   {
     "name": "Try to go through it",
     "story": "not the best plan",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/234273/pexels-photo-234273.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,

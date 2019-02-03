@@ -23,7 +23,7 @@ function Login() {
         <br />
         <h4 id="register-login">
           Don't have an account?{" "}
-          <a href="#" id="signup-link">
+          <a href="/login" id="signup-link">
             Sign up now
           </a>
         </h4>

@@ -8,9 +8,7 @@ function Storyboard(props) {
       <div className="card">
       <div className="location-div">
         <p className="card-title">
-          Your current location:
-          <br />
-          {props.name}
+          Selection: {props.name}
         </p>
         </div>
         <div className="img-container">
@@ -18,7 +16,7 @@ function Storyboard(props) {
         </div>
         <div className="card-body">
           <p className="card-text">
-            Location details:
+             Details:
             <br />
             {props.story}
           </p>
@@ -31,7 +29,7 @@ function Storyboard(props) {
           </div>
         </div>
       </div>
-      <footer><a href="https://michelcausey.github.io/Bootstrap-Portfolio/" target="_blank">michel causey 2019</a></footer>
+      <footer><a href="https://michelcausey.github.io/Bootstrap-Portfolio/" target="_blank" rel="noopener noreferrer">michel causey 2019</a></footer>
     </div>
   );
 }

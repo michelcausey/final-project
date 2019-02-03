@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Footer";
 import "./style.css";
 
 function About() {
@@ -33,13 +32,13 @@ function About() {
         </h2>
         <h4 id="register">
           Don't have an account?{" "}
-          <a href="#" id="signup-link">
+          <a href="/login" id="signup-link">
             Sign up now
           </a>
         </h4>
       </div>
     </div>
-    <footer><a href="https://michelcausey.github.io/Bootstrap-Portfolio/" target="_blank">michel causey 2019</a></footer>
+    <footer><a href="https://michelcausey.github.io/Bootstrap-Portfolio/" target="_blank" rel="noopener noreferrer">michel causey 2019</a></footer>
     </div>
   );
 }

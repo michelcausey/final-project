@@ -1,31 +1,32 @@
 body {
-    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png")
+    background: url("https://layout-lounge.weebly.com/uploads/2/5/9/2/2592379/9331204_orig.png");
+    font-family: 'Concert One', cursive;
 }
 
 footer {
     padding: 20px;
-    background: #817573;
+    background: #e2b13c;
     text-align: center;
 }
 
 .card {
-    border: black 3px solid;
-    background: #188863;
+    border: #e2b13c 3px solid;
+    background: #010512;
     margin-bottom: 20px;
 }
 
 .card-body {
-    border: black 2px solid;
+    border: #e2b13c 2px solid;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
-    background: white
+    margin-bottom: 10px;
+    background: #DCDCDC
 }
 
 .card-text {
     margin: 20px auto 20px auto;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -37,17 +38,16 @@ footer {
 
 .img-container {
     margin: 0px auto 0px auto;
-    border-left: black 2px solid;
-    border-right: black 2px solid;
+    border: #e2b13c 2px solid;
 }
 
 .location-div {
-    border: black 2px solid;
+    border: #e2b13c 2px solid;
     width: 50%;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    background: white;
+    background: #DCDCDC;
 }
 
 #sized-image{
