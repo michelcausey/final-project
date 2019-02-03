@@ -4,7 +4,8 @@ import story from "../../story.json";
 
 class Game extends Component {
   state = {
-    location: 0
+    location: 0,
+    results: 0
   };
 
   //update state based on button pressed
@@ -131,6 +132,41 @@ class Game extends Component {
       console.log("be flexible");
       this.setState({location: this.state.location = 23})
     }
+    // location: 24 = Politely Decline
+    else if (event.target.innerText === "Participate") {
+      console.log("please no");
+      this.setState({location: this.state.location = 24})
+    }
+    // location: 25 = Fight
+    else if (event.target.innerText === "Fight") {
+      console.log("please no");
+      this.setState({location: this.state.location = 25})
+    }
+    // location: 26 = Sled
+    else if (event.target.innerText === "Sled") {
+      console.log("sled");
+      this.setState({location: this.state.location = 26})
+    }
+    // location: 27 = Disguise Yourself
+    else if (event.target.innerText === "Disguise Yourself") {
+      console.log("disguise");
+      this.setState({location: this.state.location = 27})
+    }
+    // location: 28 = Fight Your Way Out
+    else if (event.target.innerText === "Fight Your Way Out") {
+      console.log("at least try");
+      this.setState({location: this.state.location = 28})
+    }
+    // location: 29 = Try to go over it
+    else if (event.target.innerText === "Try to go over it") {
+      console.log("rip vine");
+      this.setState({location: this.state.location = 29})
+    }
+    // location: 30 = Try to go through it
+    else if (event.target.innerText === "Try to go through it") {
+      console.log("nope");
+      this.setState({location: this.state.location = 30})
+        }
   };
 
   render() {

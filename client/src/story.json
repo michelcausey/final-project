@@ -167,7 +167,7 @@
   {
     "name": "Join Coven",
     "story": "peer pressure - you win tho",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/110867/pexels-photo-110867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
         "N": null,
         "E": null,
@@ -178,7 +178,7 @@
   {
     "name": "Reject Invitation",
     "story": "nope - they didn't like that - you lose",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/1178684/pexels-photo-1178684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -189,7 +189,7 @@
   {
     "name": "Climb Down",
     "story": "try to climb down a mountain, go ahead",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/34584/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -200,7 +200,7 @@
   {
     "name": "Use the Parachute",
     "story": "I mean, it's here right?",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/67298/parachute-paratrooper-parachutist-land-67298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -211,7 +211,7 @@
   {
     "name": "Look",
     "story": "open your eyes fam",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/169972/pexels-photo-169972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -222,7 +222,7 @@
   {
     "name": "Keep Your Eyes Closed",
     "story": "no peeking",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -233,7 +233,7 @@
   {
     "name": "Sneak There",
     "story": "tip toe",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -244,7 +244,7 @@
   {
     "name": "Run!",
     "story": "let's goo",
-    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "image": "https://images.pexels.com/photos/1526790/pexels-photo-1526790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "movement": {
       "N": null,
       "E": null,
@@ -255,6 +255,83 @@
   {
     "name": "Participate",
     "story": "downward facing dog",
+    "image": "https://images.pexels.com/photos/7640/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "movement": {
+      "N": null,
+      "E": null,
+      "S": null,
+      "W": null
+    }
+  },
+  {
+    "name": "Politely Decline",
+    "story": "i can't touch my toes irl",
+    "image": "https://images.pexels.com/photos/220067/pexels-photo-220067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "movement": {
+      "N": null,
+      "E": null,
+      "S": null,
+      "W": null
+    }
+  },
+  {
+    "name": "Fight",
+    "story": "snowball, to clarify",
+    "image": "https://cdn.pixabay.com/photo/2015/12/31/17/18/snow-1115890_960_720.png",
+    "movement": {
+      "N": null,
+      "E": null,
+      "S": null,
+      "W": null
+    }
+  },
+  {
+    "name": "Sled",
+    "story": "it'll be fun too",
+    "image": "https://cdn.pixabay.com/photo/2015/07/02/10/10/day-planner-828611_960_720.jpg",
+    "movement": {
+      "N": null,
+      "E": null,
+      "S": null,
+      "W": null
+    }
+  },
+  {
+    "name": "Disguise Yourself",
+    "story": "like the walking dead",
+    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "movement": {
+      "N": null,
+      "E": null,
+      "S": null,
+      "W": null
+    }
+  },
+  {
+    "name": "Fight Your Way Out",
+    "story": "also like the walking dead",
+    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "movement": {
+      "N": null,
+      "E": null,
+      "S": null,
+      "W": null
+    }
+  },
+  {
+    "name": "Try to go over it",
+    "story": "vine",
+    "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
+    "movement": {
+      "N": null,
+      "E": null,
+      "S": null,
+      "W": null
+    }
+  },
+  {
+    "name": "Try to go through it",
+    "story": "not the best plan",
     "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
     "movement": {
       "N": null,
