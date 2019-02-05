@@ -7,8 +7,6 @@ const Button = (props)=> {
     <div className="movement">
         <button onClick={props.handleBtnClick} type="button" id="btn1" value="N" className="btn btn-secondary btn-lg btn-block">{props.movement.N}</button>
         <button onClick={props.handleBtnClick} type="button" id="btn2" value="E" className="btn btn-secondary btn-lg btn-block">{props.movement.E}</button>
-        <button onClick={props.handleBtnClick} type="button" id="btn3" value="S" className="btn btn-secondary btn-lg btn-block">{props.movement.S}</button>
-        <button onClick={props.handleBtnClick} type="button" id="btn4" value="W" className="btn btn-secondary btn-lg btn-block">{props.movement.W}</button>
     </div>
     )
 }

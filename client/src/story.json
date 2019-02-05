@@ -1,35 +1,29 @@
 [
   {   
       "name": "Home",
-      "story": "...no, I'm a frayed knot",
+      "story": "‘Thank you for letting me stay, grandma, I’m sure this is exactly what I need.’ It’s not quite a lie, you’re sure the cabin in the woods will be the perfect place to escape your distractions and finish your final project before it’s due at 11:59 PM. There’s just something about being here that has you on edge though...something you can’t quite put your finger on. Oh well, you shake the feeling and look around at the old place. ‘Well, I’m here for a reason and it’s already 6PM’, you say, ‘let’s go!’ and you dive in to work once again.  BANG BANG! It sounds like someone is beating on the door.  ‘That’s weird… grandma said no one should be in the area for days…’ BANG BANG BANG, it’s more persistent this time.  You get up nervously and open the door only to find no one is there.  When you turn to go back inside, you realize the door has shut behind you and is locked with your keys inside. On the door, someone has left a note for you: ‘I have a spare key but you’ll have to find me’  You look at your watch and realize it’s already 6:30 PM, and you have only hours to go before your project has to be turned in. ‘Grandma always said there was a groundskeeper, uh, somewhere?’  You should really start paying more attention...but for now, you have to start looking.  Do you want to go EAST and take your chance in the woods or WEST towards what grandma always called ‘the enchanted meadow’?",
       "image": "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
-        "N": null,
-        "E": "Woods",
-        "S": null,
-        "W": "Meadow"
+        "N": "Woods (Travel East)",
+        "E": "Meadow (Travel West)"
       }
   },
   {
       "name": "Woods",
-      "story": "This talks about what happens when you go to the woods",
+      "story": "You leave the house and head EAST, and you are starting to feel anxious. You haven’t been in these particular woods since… ‘stop it, that wasn’t real’, you tell yourself and push on.  ‘The faster I find the person who left me the key, the sooner I can get back to coding.’  You walk along the trail from the house for a little while, noticing that it’s getting darker and darker the further you go.  You have a strange feeling of being watched, but shake it off. You start to hear a rushing sound, and as you turn the corner you see a large river. You look around, noticing that the path entrance is blocked to the NORTH by fallen trees, but just beyond it, it hugs the river’s winding path deeper into the woods.  To your right, the path is clear and well lit with a wooden sign directing you toward the … ‘come on, seriously?’ … cemetery. You look down at your watch and notice it’s 7:42 PM -- time to decide. ‘Well, here goes nothing’ you say, and turn...",
       "image": "https://cdn.pixabay.com/photo/2018/01/31/07/36/secret-3120483_960_720.jpg",
       "movement": {
-        "N": "River",
-        "E": null,
-        "S": "Cemetery",
-        "W": null
+        "N": "River (Travel North)",
+        "E": "Cemetery (Travel South)"
       }
   },
   {
       "name": "River",
-      "story": "the river one",
+      "story": "...NORTH toward the river. ‘Nope, nope, nope. Cemetery rhymes with super scary. Not making the same mistake twice, real or imagined.’ You climb around the fallen trees and drop back down to the path, noticing you are now in complete silence, not even the mosquitos are buzzing. You pick up the pace a little bit, looking all over for any signs of the person who left you that note. You continue walking by the river noticing it’s becoming larger & larger.  To the WEST you begin to see the terrain is climbing upwards. Suddenly, you can see the orange glow of a fire in the distance and head toward it.  ‘What was that?’ as a branch snaps somewhere off the path, but fairly close.  You stop moving, but all you hear is silence pressing in on you. ‘I bet they’re camping out by the fire just waiting for me to get there so they can have a good laugh at my expense.’  You enter the clearing and see the fire roaring, but there is no one in sight.  ‘He he he’, you hear to the EAST which looks to be turning into a swamp land this deep in the woods. At the same time, you hear scrambling from the WEST, like someone is trying to hide from you by climbing rocky path up the cliff. Where do you go next?",
       "image": "https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
-        "N": null,
-        "E": "Swamp",
-        "S": null,
-        "W": "Cliff"
+        "N": "Cliff (Travel West)",
+        "E": "Swamp (Travel East)"
       }
   },
   {
@@ -38,9 +32,7 @@
       "image": "https://cdn.pixabay.com/photo/2016/12/06/16/53/fog-1886939_960_720.jpg",
       "movement": {
         "N": "Join Coven",
-        "E": "Reject Invitation",
-        "S": null,
-        "W": null
+        "E": "Reject Invitation"
       }
   },
   {
@@ -49,9 +41,7 @@
       "image": "https://images.pexels.com/photos/861034/pexels-photo-861034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
         "N": "Climb Down",
-        "E": "Use the Parachute",
-        "S": null,
-        "W": null
+        "E": "Use the Parachute"
       }
   },
   {
@@ -59,10 +49,8 @@
       "story": "like greenwood",
       "image": "https://cdn.pixabay.com/photo/2015/10/15/18/55/cemetery-989920_960_720.jpg",
       "movement": {
-        "N": null,
-        "E": null,
-        "S": "Castle",
-        "W": "Church"
+        "N": "Castle (Travel South)",
+        "E": "Church (Travel West)"
       }
   },
   {
@@ -71,9 +59,7 @@
       "image": "https://cdn.pixabay.com/photo/2017/02/25/09/51/full-moon-2097326_960_720.jpg",
       "movement": {
         "N": "Look",
-        "E": "Keep Your Eyes Closed",
-        "S": null,
-        "W": null
+        "E": "Keep Your Eyes Closed"
       }
   },
   {
@@ -82,9 +68,7 @@
       "image": "https://cdn.pixabay.com/photo/2016/09/04/22/08/church-1645414_960_720.jpg",
       "movement": {
         "N": "Sneak There",
-        "E": "Run!",
-        "S": null,
-        "W": null
+        "E": "Run!"
       }
   },
   {
@@ -92,10 +76,8 @@
       "story": "This talks about what happens when you go to the meadow",
       "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736882_960_720.jpg",
       "movement": {
-        "N": "Mountains",
-        "E": null,
-        "S": null,
-        "W": "Hidden Path"
+        "N": "Mountains (Travel North)",
+        "E": "Hidden Path (Travel South)"
       }
   },
   {
@@ -103,10 +85,8 @@
       "story": "The mountain choice",
       "image": "https://images.pexels.com/photos/655679/pexels-photo-655679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
-        "N": null,
-        "E": "Summit",
-        "S": null,
-        "W": "Shack"
+        "N": "Summit (Travel West)",
+        "E": "Shack (Travel East)"
       }
   },
   {
@@ -115,9 +95,7 @@
       "image": "https://cdn.pixabay.com/photo/2015/09/02/12/27/matterhorn-918442_960_720.jpg",
       "movement": {
         "N": "Participate",
-        "E": "Politely Decline",
-        "S": null,
-        "W": null
+        "E": "Politely Decline"
       }
   },
   {
@@ -126,9 +104,7 @@
       "image": "https://images.pexels.com/photos/750108/pexels-photo-750108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
         "N": "Fight",
-        "E": "Sled",
-        "S": null,
-        "W": null
+        "E": "Sled"
       }
   },
   {
@@ -136,10 +112,8 @@
       "story": "the hidden path option",
       "image": "https://images.pexels.com/photos/235734/pexels-photo-235734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
-        "N": null,
-        "E": null,
-        "S": "Abandoned Village",
-        "W": "Quick Sand"
+        "N": "Abandoned Village (Travel South)",
+        "E": "Quick Sand (Travel West)"
       }
   },
   {
@@ -148,9 +122,7 @@
       "image": "https://cdn.pixabay.com/photo/2018/01/16/18/04/house-3086475_960_720.jpg",
       "movement": {
         "N": "Disguise Yourself",
-        "E": "Fight Your Way Out",
-        "S": null,
-        "W": null
+        "E": "Fight Your Way Out"
       }
   },
   {
@@ -159,9 +131,7 @@
       "image": "https://images.pexels.com/photos/127582/pexels-photo-127582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "movement": {
         "N": "Try to go over it",
-        "E": "Try to go through it",
-        "S": null,
-        "W": null
+        "E": "Try to go through it"
       }
   },
   {

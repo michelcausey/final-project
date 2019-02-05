@@ -1,11 +1,9 @@
 .about-container {
-    background: #188863;
-    border: 1px black solid;
+    background: #010512;
+    border: 1px #e2b13c solid;
     padding: 20px;
     width: 100%;
     text-align: center;
-    font-family: 'Concert One', cursive;
-
 }
 
 #about-img {
@@ -21,48 +19,44 @@
     margin: 0px auto 0px auto;
     border: 2px black solid;
     text-align: center;
-    font-family: 'Concert One', cursive;
 }
 
 .how-to-play-div {
     margin-top: 50px;
-    font-family: 'Concert One', cursive;
-
+    color: #e2b13c;
+    font-family: 'Muli', sans-serif;
 }
 
 #play {
     font-size: 15px;
-    font-family: 'Concert One', cursive;
-
+    color: #e2b13c;
+    font-family: 'Muli', sans-serif;
 }
 
 #login-link {
-    color: #07B2B8;
-    font-family: 'Concert One', cursive;
-
+    color: #e2b13c;
+    font-family: 'Muli', sans-serif;
 }
 
 #register {
     font-size: 15px;
-    font-family: 'Concert One', cursive;
-
+    font-family: 'Muli', sans-serif;
 }
 
 #signup-link {
-    color: #07B2B8;
-    font-family: 'Concert One', cursive;
+    color: #e2b13c;
+    font-family: 'Muli', sans-serif;
 
 }
 
 h1 {
-    font-family: 'Concert One', cursive;
+    font-family: 'Major Mono Display', monospace;
 }
 
 h3 {
     font-size: 23px;
     font-style: italic;
-    font-family: 'Concert One', cursive;
-
+    font-family: 'Muli', sans-serif;
 }
 
 p {
@@ -70,8 +64,7 @@ p {
     font-style: italic;
     color: black;
     margin-top: 10px;
-    font-family: 'Concert One', cursive;
-
+    font-family: 'Muli', sans-serif;
 }
 
 footer {
@@ -79,6 +72,5 @@ footer {
     background: #817573;
     text-align: center;
     margin-top: 20px;
-    font-family: 'Concert One', cursive;
-
+    font-family: 'Muli', sans-serif;
 }

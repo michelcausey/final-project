@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button";
+import Modal from "../Modal";
 import "./style.css";
 
 function Storyboard(props) {
@@ -7,17 +8,17 @@ function Storyboard(props) {
     <div className="container">
       <div className="card">
       <div className="location-div">
-        <p className="card-title">
-          Selection: {props.name}
-        </p>
-        </div>
-        <div className="img-container">
+      <div className="img-container">
           <img id="sized-image" src={props.image} alt="props" />
+        </div>
+        <p className="card-title">
+          Selection: 
+          <br></br>{props.name}
+        </p>
+        <Modal />
         </div>
         <div className="card-body">
           <p className="card-text">
-             Details:
-            <br />
             {props.story}
           </p>
           <div />

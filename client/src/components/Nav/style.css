@@ -1,14 +1,18 @@
 .navbar {
     background: #817573;
     margin-bottom: 20px;
-    font-family: 'Concert One', cursive;
+    font-family: 'Major Mono Display', monospace;
 }
 
 h5 {
     padding: 10px;
     margin: 10px;
     color: #000000;
-    font-family: 'Concert One', cursive;
+    font-family: 'Major Mono Display', monospace;
+}
+
+a {
+    font-family: 'Muli', sans-serif;
 }
 
 .nav-link {
