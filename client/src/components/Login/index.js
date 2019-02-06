@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer"
+import Register from "../Register"
 import "./style.css";
 
 
@@ -23,7 +24,7 @@ function Login() {
         <br />
         <h4 id="register-login">
           Don't have an account?{" "}
-          <a href="/login" id="signup-link">
+          <a href="/Register" id="signup-link">
             Sign up now
           </a>
         </h4>

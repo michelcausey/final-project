@@ -146,35 +146,38 @@ class Game extends Component {
       this.setState({location: this.state.location = 25})   
       break;
 
-     // location: 26 = "Sled"
-     case "Sled":
-     this.setState({location: this.state.location = 26})   
-     break;
+      // location: 26 = "Sled"
+      case "Sled":
+      this.setState({location: this.state.location = 26})   
+      break;
 
-    // location: 27 = "Disguise Yourself"
-    case "Disguise Yourself":
-    this.setState({location: this.state.location = 27})   
-    break;
+      // location: 27 = "Disguise Yourself"
+      case "Disguise Yourself":
+      this.setState({location: this.state.location = 27})   
+      break;
 
-    // location: 28 = "Fight Your Way Out"
-    case "Fight Your Way Out":
-    this.setState({location: this.state.location = 28})   
-    break;
+      // location: 28 = "Fight Your Way Out"
+      case "Fight Your Way Out":
+      this.setState({location: this.state.location = 28})   
+      break;
 
-    // location: 29 = "Try to go over it"
-    case "Try to go over it":
-    this.setState({location: this.state.location = 29})   
-    break;
+      // location: 29 = "Try to go over it"
+      case "Try to go over it":
+      this.setState({location: this.state.location = 29})   
+      break;
 
-    // location: 29 = "Try to go through it"
-    case "Try to go through it":
-    this.setState({location: this.state.location = 30})   
-    break;
+      // location: 29 = "Try to go through it"
+      case "Try to go through it":
+      this.setState({location: this.state.location = 30})   
+      break;
 
-    default:
-    console.log("You're stuck in oblivion");
+      case "Play Again?":
+      this.setState({location: this.state.location = 0})
+      break;
+
+      default:
+      console.log("this isn't a choice")
     }
-
   };
 
   render() {

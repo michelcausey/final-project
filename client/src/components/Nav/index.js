@@ -13,9 +13,9 @@ function Nav() {
     <li className="nav-item active">
       <a className="nav-link" href="/login">Log-In <span className="sr-only">(current)</span></a>
     </li>
-    <li className="nav-item active">
+    {/* <li className="nav-item active">
       <a className="nav-link" href="/game">Play<span className="sr-only">(current)</span></a>
-    </li>
+    </li> */}
   </ul>
 </div>
 </nav>

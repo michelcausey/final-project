@@ -1,56 +1,32 @@
-import React from "react";
-import "./style.css";
+import React, { Component } from 'react'
+import { Button, Modal } from 'semantic-ui-react'
 
-function Modal(props) {
-  return (
-    <div>
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-toggle="modal"
-        data-target="#exampleModal"
-      >
-        Modal Example
-      </button>
+class ModalExampleSize extends Component {
+  state = { open: false }
 
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Map
-              </h5>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">MAP GOES HERE</div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
+  show = size => () => this.setState({ size, open: true })
+  close = () => this.setState({ open: false })
+
+  render() {
+    const { open, size } = this.state
+
+    return (
+      <div>
+        <Button onClick={this.show('fullscreen')}>Fullscreen</Button>
+
+        <Modal size={size} open={open} onClose={this.close}>
+          <Modal.Header>View the Map</Modal.Header>
+          <Modal.Content>
+            <p>Are you sure you want to delete your account</p>
+          </Modal.Content>
+          <Modal.Actions>
+            <Button negative>No</Button>
+            <Button positive icon='checkmark' labelPosition='right' content='Yes' />
+          </Modal.Actions>
+        </Modal>
       </div>
-    </div>
-  );
+    )
+  }
 }
 
-export default Modal;
+export default ModalExampleSize

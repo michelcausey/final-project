@@ -1,0 +1,39 @@
+.container-register {
+    border: black 1px solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Muli', sans-serif;
+}
+
+.form-group {
+    margin: 0px auto 0px auto;
+    color: lightgray;
+    padding: 5px;
+    background: #031549;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
+
+.register-header {
+    margin: 0px auto 0px auto;
+    color: lightgray;
+    padding: 5px;
+    background: #031549;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#register-button {
+    margin-top: 10px;
+    background:#e2b13c;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+
+}
+
+
+#no-hover:hover{
+    padding: 0px;    
+}

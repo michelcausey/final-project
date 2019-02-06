@@ -32,7 +32,7 @@ function About() {
         </h2>
         <h4 id="register">
           Don't have an account?{" "}
-          <a href="/login" id="signup-link">
+          <a href="/register" id="signup-link">
             Sign up now
           </a>
         </h4>

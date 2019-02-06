@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Game from "./components/Game"
 import About from "./components/About"
 import Login from "./components/Login"
+import Register from "./components/Register"
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route exact path="/" component={About} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/game" component={Game} />
+          <Route exact path="/register" component={Register} />
+
         </Switch>
       </div>
     </Router>
