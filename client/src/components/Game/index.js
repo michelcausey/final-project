@@ -7,7 +7,6 @@ class Game extends Component {
     location: 0,
   };
 
-
   //update state based on button pressed
   //pass as a prop onchange
   //send back name of component
@@ -173,7 +172,7 @@ class Game extends Component {
     break;
 
     default:
-    console.log('Sorry');
+    console.log("You're stuck in oblivion");
     }
 
   };
