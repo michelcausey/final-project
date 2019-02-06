@@ -17,7 +17,6 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/game" component={Game} />
           <Route exact path="/register" component={Register} />
-
         </Switch>
       </div>
     </Router>

@@ -1,32 +1,41 @@
-import React, { Component } from 'react'
-import { Button, Modal } from 'semantic-ui-react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import "./style.css";
 
-class ModalExampleSize extends Component {
-  state = { open: false }
 
-  show = size => () => this.setState({ size, open: true })
-  close = () => this.setState({ open: false })
+class ModalExample extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      modal: false
+    };
+
+    this.toggle = this.toggle.bind(this);
+  }
+
+  toggle() {
+    this.setState(prevState => ({
+      modal: !prevState.modal
+    }));
+  }
 
   render() {
-    const { open, size } = this.state
-
     return (
-      <div>
-        <Button onClick={this.show('fullscreen')}>Fullscreen</Button>
-
-        <Modal size={size} open={open} onClose={this.close}>
-          <Modal.Header>View the Map</Modal.Header>
-          <Modal.Content>
-            <p>Are you sure you want to delete your account</p>
-          </Modal.Content>
-          <Modal.Actions>
-            <Button negative>No</Button>
-            <Button positive icon='checkmark' labelPosition='right' content='Yes' />
-          </Modal.Actions>
+      <div className="modal-container">
+        <Button color="warning" id="modal-button" onClick={this.toggle}>click here to open map</Button>
+        <Modal size="xl" id="modal" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+          <ModalHeader toggle={this.toggle}><h1>View Map</h1></ModalHeader>
+          <ModalBody>
+            <img id="modal-image" src="images/mapV1.png"></img>
+          </ModalBody>
+          <ModalFooter>
+            <Button color="warning" onClick={this.toggle}>Back to Game</Button>{' '}
+          </ModalFooter>
         </Modal>
       </div>
-    )
+    );
   }
 }
 
-export default ModalExampleSize
+export default ModalExample;
