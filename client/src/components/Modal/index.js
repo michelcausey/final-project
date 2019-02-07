@@ -3,7 +3,6 @@ import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import "./style.css";
 
-
 class ModalExample extends React.Component {
   constructor(props) {
     super(props);
@@ -23,7 +22,7 @@ class ModalExample extends React.Component {
   render() {
     return (
       <div className="modal-container">
-        <Button color="warning" id="modal-button" onClick={this.toggle}>click here to open map</Button>
+        <Button color="warning" id="modal-button" onClick={this.toggle}>click here to open map </Button>
         <Modal size="xl" id="modal" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}><h1>View Map</h1></ModalHeader>
           <ModalBody>
