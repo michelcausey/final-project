@@ -23,8 +23,8 @@
 }
 
 #submit-button {
+    margin: 10px auto 10px auto;
     background:#031549;
-    width: 50%;
     font-family: 'Muli', sans-serif;
 
 }

@@ -1,8 +1,6 @@
 import React from "react";
 import Footer from "../Footer"
-import Register from "../Register"
 import "./style.css";
-
 
 function Login() {
     return (

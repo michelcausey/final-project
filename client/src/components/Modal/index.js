@@ -29,9 +29,7 @@ class ModalExample extends React.Component {
           <ModalBody>
             <img id="modal-image" src="images/mapV2.jpg"></img>
           </ModalBody>
-          <ModalFooter>
-            <Button color="warning" onClick={this.toggle}>Back to Game</Button>{' '}
-          </ModalFooter>
+          <ModalFooter></ModalFooter>
         </Modal>
       </div>
     );

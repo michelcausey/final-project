@@ -15,10 +15,11 @@
 
 .description-div {
     padding: 20px;
-    background: white;
+    background: #1A1A19;
     margin: 0px auto 0px auto;
     border: 2px black solid;
     text-align: center;
+    color: #e2b13c;
 }
 
 .how-to-play-div {
@@ -51,17 +52,18 @@
 
 #cyoa {
     font-family: 'Major Mono Display', monospace;
-
 }
 
 h1 {
     font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 23px;
     font-style: italic;
     font-family: 'Muli', sans-serif;
+    color: #23EF03;
 }
 
 p {

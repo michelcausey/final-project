@@ -9,9 +9,7 @@ function About() {
         <h1>Code Your Own Adventure:</h1>
         <h1>The Final Project</h1>
         <hr></hr>
-        <h3>
-          Can you make it home in time to turn in your project?
-        </h3>
+        <h3>Can you make it home in time to turn in your project?</h3>
         <br />
         <div className="about-image">
           <img id="about-img" src="images/about-image.jpg" alt="about" />
