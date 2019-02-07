@@ -6,21 +6,16 @@ function About() {
     <div>
     <div className="about-container">
       <div className="description-div">
-        <h1>The Title Of This CYOA Game is Really Exciting</h1>
+        <h1>Code Your Own Adventure:</h1>
+        <h1>The Final Project</h1>
+        <hr></hr>
         <h3>
-          The description of this game will most definitely make you want to
-          play it, once I write it!
+          Can you make it home in time to turn in your project?
         </h3>
         <br />
         <div className="about-image">
-          <img id="about-img" src="https://cdn.pixabay.com/photo/2016/01/09/18/27/journey-1130732_960_720.jpg" alt="about" />
+          <img id="about-img" src="images/about-image.jpg" alt="about" />
         </div>
-        <p>
-          more details more details, i know what the game is, more details more
-          details <br />
-          yes, i have story in mind, more details more details. what will the
-          outcome be?
-        </p>
       </div>
       <div className="how-to-play-div">
         <h2 id="play">
