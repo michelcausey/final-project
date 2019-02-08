@@ -12,9 +12,7 @@ function Storyboard(props) {
             <img id="sized-image" src={props.image} alt="props" />
           </div>
           <p className="card-title">
-            Selection:
-            <br />
-            {props.name}
+            Selection: {props.name}
           </p>
           <Modal />
         </div>

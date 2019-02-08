@@ -15,22 +15,22 @@
 
 .description-div {
     padding: 20px;
-    background: #1A1A19;
+    background: #C0CABC;
     margin: 0px auto 0px auto;
     border: 2px black solid;
     text-align: center;
-    color: #e2b13c;
+    color: #47088F;
 }
 
 .how-to-play-div {
     margin-top: 50px;
-    color: #e2b13c;
+    color: #631888;
     font-family: 'Muli', sans-serif;
 }
 
 #play {
     font-size: 15px;
-    color: #e2b13c;
+    color: #631888;
     font-family: 'Muli', sans-serif;
 }
 
@@ -63,7 +63,7 @@ h3 {
     font-size: 23px;
     font-style: italic;
     font-family: 'Muli', sans-serif;
-    color: #23EF03;
+    color: #631888;
 }
 
 p {

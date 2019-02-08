@@ -140,9 +140,7 @@
     "image": "images/join_coven.jpeg",
     "movement": {
         "N": "Play Again?",
-        "E": null,
-        "S": null,
-        "W": null
+        "E": null
         }
   },
   {
@@ -151,9 +149,7 @@
     "image": "images/reject_invitation.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
       }
   },
   {
@@ -162,9 +158,7 @@
     "image": "images/climb_down.jpg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
      }
   },
   {
@@ -173,9 +167,7 @@
     "image": "images/parachute.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -184,9 +176,7 @@
     "image": "images/Look.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -195,9 +185,7 @@
     "image": "images/eyes_closed.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -206,9 +194,7 @@
     "image": "images/sneak.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -217,9 +203,7 @@
     "image": "images/run.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -228,9 +212,7 @@
     "image": "images/participate.jpg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -239,9 +221,7 @@
     "image": "images/decline.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -250,9 +230,7 @@
     "image": "images/fight.png",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -261,9 +239,7 @@
     "image": "images/sled.jpg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -272,9 +248,7 @@
     "image": "images/disguise.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -283,9 +257,7 @@
     "image": "images/fight_zombies.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -294,9 +266,7 @@
     "image": "images/over_it.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   },
   {
@@ -305,9 +275,7 @@
     "image": "images/thru.jpeg",
     "movement": {
       "N": "Play Again?",
-      "E": null,
-      "S": null,
-      "W": null
+      "E": null
     }
   }
 ]

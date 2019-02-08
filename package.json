@@ -28,6 +28,7 @@
     "materialize-css": "^1.0.0-rc.2",
     "mongodb": "^3.1.13",
     "mongoose": "^5.3.16",
+    "passport-local": "^1.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "reactstrap": "^7.1.0",
