@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Footer from "../Footer"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Game from "../Game"
 import "./style.css";
 
 class Login extends Component {

@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const usercontrollers = require("../../usercontrollers.js");
+const usercontrollers = require("../../controllers/usercontrollers");
 
-// Matches with "/api/books/:id"
+// Matches with "/api/users/:id"
 router
   .route("/:id")
   .get(usercontrollers.findById)

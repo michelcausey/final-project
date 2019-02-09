@@ -11,9 +11,13 @@ class Game extends Component {
   //pass as a prop onchange
   //send back name of component
 
+  componentDidMount = () => {
+    console.log("game is ready")
+  }
+
   handleBtnClick = event => {
     event.preventDefault();
-    console.log("Next Location: ", event.target.innerText);
+    console.log("Next Location: ", event.target.innerText, "Location #: ", this.state.location);
 
     switch (event.target.innerText) {
       // location: 0 = Home

@@ -26,7 +26,7 @@ class ModalExample extends React.Component {
         <Modal size="lg" id="modal" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}><h1>View Map</h1></ModalHeader>
           <ModalBody>
-            <img id="modal-image" src="images/mapV3.png"></img>
+            <img id="modal-image" src="images/mapV3.png" alt="the map"></img>
           </ModalBody>
           <ModalFooter></ModalFooter>
         </Modal>
