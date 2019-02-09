@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Footer from "../Footer";
+import axios from "axios";
 import "./style.css";
 
 class Register extends Component {
@@ -44,6 +45,9 @@ class Register extends Component {
       lastName: "",
       userName: "",
       password: ""
+            // call axios post - url is your own api route .post('api/users/' , {this.state.firstName , etc.})
+    }, () => {
+      axios.post("api/create", (this.state.firstName, this.state.lastName, this.state.userName, this.state.password))
     });
   };
 

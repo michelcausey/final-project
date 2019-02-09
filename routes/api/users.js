@@ -8,4 +8,9 @@ router
   .put(usercontrollers.update)
   .delete(usercontrollers.remove);
 
+router
+  .route("/api/create")
+  .get(usercontrollers.findAll)
+  .post(usercontrollers.create);
+
 module.exports = router;
