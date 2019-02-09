@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Footer from "../Footer"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Game from "../Game"
 import "./style.css";
 
 class Login extends Component {
@@ -28,9 +30,11 @@ class Login extends Component {
       event.preventDefault();
       if (!this.state.userName || !this.state.password) {
         alert("You must enter your username & password");
-      } else {
+      } else if (this.state.userName === 'meeshmello' && this.state.password === '123456')  {
         alert(`Welcome back ${this.state.userName}, you have successfully logged in`);
-        
+        window.location = "/game"
+      } else {
+        alert (`Please enter a valid username and/or password`)
       }
   
       this.setState({

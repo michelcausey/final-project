@@ -36,6 +36,7 @@ class Register extends Component {
       alert("Please select a password");
     } else {
       alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account`);
+      window.location = "/game"
     }
 
     this.setState({
