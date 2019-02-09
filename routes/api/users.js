@@ -9,7 +9,7 @@ router
   .delete(usercontrollers.remove);
 
 router
-  .route("/api/create")
+  .route("/")
   .get(usercontrollers.findAll)
   .post(usercontrollers.create);
 

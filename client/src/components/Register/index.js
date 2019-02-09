@@ -45,9 +45,9 @@ class Register extends Component {
       lastName: "",
       userName: "",
       password: ""
-            // call axios post - url is your own api route .post('api/users/' , {this.state.firstName , etc.})
-    }, () => {
-      axios.post("api/create", (this.state.firstName, this.state.lastName, this.state.userName, this.state.password))
+    }, // call axios post - url is your own api route .post('api/users/' , {this.state.firstName , etc.})
+    () => {
+      axios.post("api/users", {this.state.firstName, this.state.lastName, this.state.userName, this.state.password})
     });
   };
 
