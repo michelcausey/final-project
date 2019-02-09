@@ -1,13 +1,12 @@
 .container-login {
-    border: black 1px solid;
+    padding: 20px;
+    border:#817573 2px solid;
+    background: #188863;
+    margin: 20px auto 20px auto;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Muli', sans-serif;
-
 }
 
-.login-header {
+#welcome-text {
     margin: 0px auto 0px auto;
     color: lightgray;
     padding: 5px;
@@ -16,21 +15,45 @@
     font-family: 'Muli', sans-serif;
 }
 
-.whole-form {
-    background: #188863;
-    padding: 20px;
-    color: white;
-}
-
 #submit-button {
     margin: 10px auto 10px auto;
-    background:#031549;
+    border: black 1px solid;
+    background: #e2b13c;
     font-family: 'Muli', sans-serif;
-
+    width: 25%;
 }
 
-#register-login {
-    font-size: 15px;
+#firstName {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+}
+
+#lastName {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+}
+
+#username {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+}
+
+#password {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+}
+
+#register-link {
+    font-size: 12px;
+    font-family: 'Muli', sans-serif;
     text-align: right;
 }
 
