@@ -21,12 +21,6 @@ const userSeed = [
     lastName: "Matani",
     userName: "sanyanmichel",
     password: "654321"
-  },
-  {
-    firstName: "Example First",
-    lastName: "Example Last",
-    userName: "userExample",
-    password: "password"
   }
 ];
 

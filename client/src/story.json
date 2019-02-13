@@ -83,7 +83,7 @@
   {
       "name": "Mountains",
       "story": "The mountain choice",
-      "image": "https://images.pexels.com/photos/655679/pexels-photo-655679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "image": "images/mountain.jpeg",
       "movement": {
         "N": "Summit (Travel West)",
         "E": "Shack (Travel East)"

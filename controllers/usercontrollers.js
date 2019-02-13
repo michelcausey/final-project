@@ -16,7 +16,9 @@ module.exports = {
      .catch(err => res.status(422).json(err));
  },
  create: function(req, res) {
+   console.log(req.body)
    db.User
+     // find by username and if it doesn't exist, create a new user
      .create(req.body)
      .then(dbModel => res.json(dbModel))
      .catch(err => res.status(422).json(err));

@@ -20,7 +20,7 @@ class Login extends Component {
       // Updating the input's state
       this.setState({
         [name]: value
-      });
+      })
     };
   
     handleFormSubmit = event => {

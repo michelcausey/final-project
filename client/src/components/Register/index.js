@@ -29,31 +29,39 @@ class Register extends Component {
   handleFormSubmit = event => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
+    
+    const {firstName, lastName, userName, password} = this.state
+    console.log(firstName, lastName, userName, password)
+
     if (!this.state.firstName || !this.state.lastName) {
       alert("Please enter your first & last name");
     } else if (!this.state.userName) {
       alert("Please select a username");
     } else if (!this.state.password) {
       alert("Please select a password");
+      
     } else {
-      alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account`);
-      window.location = "/game"
-    }
-
-    this.setState({
-      firstName: "",
-      lastName: "",
-      userName: "",
-      password: ""
-    }, // call axios post - url is your own api route .post('api/users/' , {this.state.firstName , etc.})
-    () => {
-     axios.post("api/users", {
-       firstName: this.state.firstName,
-       lastName: this.state.lastName, 
-       username: this.state.userName, 
-       password: this.state.password
+      axios.post("api/users", {
+        firstName: this.state.firstName,
+        lastName: this.state.lastName, 
+        userName: this.state.userName, 
+        password: this.state.password
+       }).then(function (response) {
+        console.log(response);
+  
+        this.setState({
+          firstName: "",
+          lastName: "",
+          userName: "",
+          password: ""
+        })
+        alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account`);
+        window.location = "/game"
       })
-    });
+      .catch(function (error) {
+        console.log(error);
+      });
+    }
   };
 
   render() {
