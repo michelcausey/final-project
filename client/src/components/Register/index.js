@@ -29,6 +29,11 @@ class Register extends Component {
   handleFormSubmit = event => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
+
+  const successful = () => {
+      alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account`);
+      window.location = "/game"
+    }
     
     const {firstName, lastName, userName, password} = this.state
     console.log(firstName, lastName, userName, password)
@@ -39,7 +44,6 @@ class Register extends Component {
       alert("Please select a username");
     } else if (!this.state.password) {
       alert("Please select a password");
-      
     } else {
       axios.post("api/users", {
         firstName: this.state.firstName,
@@ -48,15 +52,15 @@ class Register extends Component {
         password: this.state.password
        }).then(function (response) {
         console.log(response);
-  
+
+        successful();
+
         this.setState({
           firstName: "",
           lastName: "",
           userName: "",
           password: ""
         })
-        alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account`);
-        window.location = "/game"
       })
       .catch(function (error) {
         console.log(error);
