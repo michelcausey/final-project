@@ -28,7 +28,7 @@
   },
   {
       "name": "Swamp",
-      "story": "the swamp one",
+      "story": "You turn EAST. Not nearly as confident as you were leaving the house, but desperately needing to get the key and get back home, you head in the direction where you know someone is hiding. You stop suddenly after hearing the laugh again. It’s louder, and now it sounds like more than one person, but you can’t pinpoint where it’s coming from.  You head deeper into the swamp.  ‘There!’ you think as you start seeing shadows running between the trees. ‘Hello? I know you’re out there. I just need the key so I can …’ When you wake up, you’re sitting in a circle in front of a group of women. ‘Where am I? Who are you? What do you want?’ you shout, and then more importantly ‘WHAT TIME IS IT?’ but they aren’t interested in giving you answers and continue staring at you in silence. Grandma always told some old wives tale about a coven of witches in the swamp, but you never thought that could be true. You are officially freaked out.  ‘Sisters, the time has come to invite a new soul to join us.’ The leader turns to you and stands up.  ‘We know what you want. The key to your grandma’s house.  We do not have it, but we can get you back inside without a doubt. All you need to do is pledge your soul to us. If you refuse, well...’ she closes her mouth and you hear a peal of giggles from the rest of the group. Oh okay… no big deal right? You take a minute and assess the situation you are in. You take a deep breath and answer...",
       "image": "images/Swamp.jpg",
       "movement": {
         "N": "Join Coven",

@@ -44,10 +44,12 @@ p {
 }
 
 .img-container {
-    margin: 10px auto 10px auto;
+    display: flex;
     border: #e2b13c 2px solid;
-    width: 572px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+
 }
 
 .location-div {
@@ -61,4 +63,5 @@ p {
 #sized-image{
     height: 100%;
     width: 100%;
+    overflow:inherit
 }
