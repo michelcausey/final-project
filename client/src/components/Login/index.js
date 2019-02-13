@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Footer from "../Footer"
 import "./style.css";
+import Axios from "axios";
 
 class Login extends Component {
     // Setting the component's initial state
@@ -29,11 +30,13 @@ class Login extends Component {
       if (!this.state.userName || !this.state.password) {
         alert("You must enter your username & password");
       } else if (this.state.userName === 'meeshmello' && this.state.password === '123456')  {
+
+        // Axios.get goes here to compare usernames with what's in the database
+
         alert(`Welcome back ${this.state.userName}, you have successfully logged in`);
         window.location = "/game"
-      } else {
-        alert (`Please enter a valid username and/or password`)
-      }
+
+      } 
   
       this.setState({
         userName: "",
