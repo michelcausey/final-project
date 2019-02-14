@@ -97,7 +97,7 @@ class Game extends Component {
 
       // location: 15 = "Join Coven"
       case "Join Coven":
-      this.setState({location: 15})   
+      this.setState({location: 15})
       break;
 
       // location: 16 = "Reject Invitation"
