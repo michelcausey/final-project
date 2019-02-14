@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Footer from "../Footer"
 import "./style.css";
-import Axios from "axios";
+import axios from "axios";
 
 class Login extends Component {
     // Setting the component's initial state
@@ -27,15 +27,35 @@ class Login extends Component {
     handleFormSubmit = event => {
       // Preventing the default behavior of the form submit (which is to refresh the page)
       event.preventDefault();
+
+      const loggedIn = () => {
+        alert(`Welcome back ${this.state.userName}, you have successfully logged in`);
+        window.location = "/game"
+      }
+
       if (!this.state.userName || !this.state.password) {
         alert("You must enter your username & password");
       } else if (this.state.userName === 'meeshmello' && this.state.password === '123456')  {
 
+        loggedIn()
         // Axios.get goes here to compare usernames with what's in the database
 
-        alert(`Welcome back ${this.state.userName}, you have successfully logged in`);
-        window.location = "/game"
+        // axios.get(`api/users/${this.userName}`, {
+          
 
+        //  }).then(function (response) {
+        //   console.log(response);
+  
+        //   loggedIn();
+
+        //   this.setState({
+        //     userName: "",
+        //     password: ""
+        //   })
+        // })
+        // .catch(function (error) {
+        //   console.log(error);
+        // });
       } 
   
       this.setState({
@@ -77,7 +97,6 @@ class Login extends Component {
     }
   }
   
-
 export default Login;
 
 
