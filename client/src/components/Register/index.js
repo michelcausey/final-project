@@ -31,8 +31,8 @@ class Register extends Component {
     event.preventDefault();
 
   const successful = () => {
-      alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account`);
-      window.location = "/game"
+      alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account. Please log-in to begin your adventure.`);
+      window.location = "/login"
     }
     
     const {firstName, lastName, userName, password} = this.state
