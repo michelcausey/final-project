@@ -31,7 +31,7 @@ class Register extends Component {
     event.preventDefault();
 
   const successful = () => {
-      alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account. Please log-in to begin your adventure.`);
+      alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account.`);
       window.location = "/howtoplay"
     }
     
