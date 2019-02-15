@@ -32,7 +32,7 @@ class Register extends Component {
 
   const successful = () => {
       alert(`Welcome ${this.state.firstName} ${this.state.lastName}, you have successfully created an account. Please log-in to begin your adventure.`);
-      window.location = "/login"
+      window.location = "/howtoplay"
     }
     
     const {firstName, lastName, userName, password} = this.state
