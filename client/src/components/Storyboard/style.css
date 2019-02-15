@@ -12,6 +12,14 @@ p {
     font-size: 12px;
 }
 
+.instructions {
+    height: 32px;
+    width: 32px;
+    margin-left: 18px;
+    padding: 2px;
+    background-color: white;
+}
+
 .card {
     background: #010512;
     margin-bottom: 20px;

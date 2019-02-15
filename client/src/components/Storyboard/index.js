@@ -5,6 +5,10 @@ import "./style.css";
 
 function Storyboard(props) {
   return (
+    <div>
+      <a href="/howtoplay">
+        <img className="instructions" src="images/instruction.png" alt="instruction"></img>
+      </a>
     <div className="container">
       <div className="card">
         <div className="location-div">
@@ -27,6 +31,7 @@ function Storyboard(props) {
           </div>
         </div>
       </div>
+    </div>
       <footer>
         <a
           href="https://michelcausey.github.io/Bootstrap-Portfolio/"
