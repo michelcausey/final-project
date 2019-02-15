@@ -10,7 +10,8 @@ router
 
 router
   .route("/")
-  .get(usercontrollers.findAll)
+  .get(usercontrollers.findUser)
   .post(usercontrollers.create);
+
 
 module.exports = router;
