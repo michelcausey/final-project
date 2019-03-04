@@ -23,7 +23,8 @@ p {
 .card {
     background: #010512;
     margin-bottom: 20px;
-    border: #e2b13c solid 3px
+    border: #e2b13c solid 3px;
+    margin-top: 20px;
 }
 
 .card-body {
