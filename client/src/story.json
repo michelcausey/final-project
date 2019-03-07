@@ -37,7 +37,7 @@
   },
   {
       "name": "Cliff",
-      "story": "the cliff one",
+      "story": "this is the cliff story",
       "image": "images/Cliff.jpeg",
       "movement": {
         "N": "Climb Down",
