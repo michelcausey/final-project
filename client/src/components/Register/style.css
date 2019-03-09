@@ -40,3 +40,8 @@
 #welcome-text {
     text-shadow: 1px 1px black
 }
+
+#submit-button:hover {
+        background-color: #B22222;
+        transition-delay: 0.2s;
+}

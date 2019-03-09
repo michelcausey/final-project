@@ -25,6 +25,14 @@
                 6px 6px #010512;
 }
 
+#btn1:hover {
+    background: #0F2206;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    border-color: #4D5656;
+}
+
 #btn2 {
     background: #220B06;
     margin: 10px;
@@ -39,4 +47,11 @@
                 4px 4px #010512,
                 5px 5px #010512,
                 6px 6px #010512;
+}
+
+#btn2:hover {
+    background: #220B06;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px; 
 }

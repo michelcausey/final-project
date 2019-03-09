@@ -1,6 +1,7 @@
 #modal-image {
     width: 100%;
-    border: 1px black solid;
+    border: 1px #010512 solid;
+    box-shadow: 5px 5px 5px #010512
 }
 
 #modal-button {
@@ -10,4 +11,13 @@
 .globe-image {
     height: 20px;
     width: 20px;
+}
+
+#modal-title {
+    text-shadow: 1px 1px #e2b13c,
+                 2px 2px #010512,
+                 3px 3px white,
+                 4px 4px #010512,
+                 5px 5px #010512,
+                 6px 6px #010512;
 }

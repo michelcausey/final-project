@@ -23,6 +23,11 @@
     width: 100%;
 }
 
+#submit-button:hover {
+    background-color: #B22222;
+    transition-delay: 0.2s;
+}
+
 #firstName {
     padding: 10px;
     margin-top: 10px;
