@@ -36,3 +36,7 @@
 #no-hover:hover{
     padding: 0px;    
 }
+
+#welcome-text {
+    text-shadow: 1px 1px black
+}

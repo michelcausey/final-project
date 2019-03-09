@@ -11,6 +11,7 @@
     margin: 0px auto 0px auto;
     height: 35%;
     width: 35%;
+    box-shadow: 5px 5px 5px black;
 }
 
 .description-div {
@@ -57,6 +58,16 @@
 h1 {
     font-family: 'Major Mono Display', monospace;
     font-weight: bold;
+    color: black;
+    position: relative;
+    top: -3px;
+    left: -3px;
+    text-shadow: 1px 1px #631888,
+                2px 2px yellow,
+                3px 3px #631888,
+                4px 4px #631888,
+                5px 5px #631888,
+                6px 6px #631888;
 }
 
 h3 {
@@ -64,6 +75,7 @@ h3 {
     font-style: italic;
     font-family: 'Muli', sans-serif;
     color: black;
+    text-shadow: 1px 1px grey;
 }
 
 p {
