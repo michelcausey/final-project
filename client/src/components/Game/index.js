@@ -182,6 +182,7 @@ class Game extends Component {
         break;
 
       case "Play Again?":
+        alert("Resetting your adventure")
         this.setState({ location: 0 });
         break;
 
