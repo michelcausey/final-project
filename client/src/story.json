@@ -136,7 +136,7 @@
   },
   {
     "name": "Join Coven",
-    "story": "peer pressure - you win tho",
+    "story": "'Listen, I'll do whatever it takes to get home before midnight.  I'm still not able to find where the last missing { is and...' The leader interupts you 'We get it geez, you have homework. Don't worry, we always take care of our own. You owe us one, we'll find you when the time comes!' She winks, and suddenly you wake up in bed.  It's 11:54PM, you push your code and sit back satisfied.  That was just a dream, you reassure yourself...right?",
     "image": "images/join_coven.jpeg",
     "movement": {
         "N": "Play Again?",
